@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户接口测试套件" duration-ms="3101" started-at="2018-08-12T08:31:58Z" finished-at="2018-08-12T08:32:01Z">
+    <groups>
+      <group name="loginSuccess">
+        <method signature="LoginTest.loginSuccess()[pri:0, instance:com.planet.test.cases.LoginTest@7a79be86]" name="loginSuccess" class="com.planet.test.cases.LoginTest"/>
+      </group> <!-- loginSuccess -->
+    </groups>
+    <test name="用户接口测试用例" duration-ms="3101" started-at="2018-08-12T08:31:58Z" finished-at="2018-08-12T08:32:01Z">
+      <class name="com.planet.test.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.planet.test.cases.LoginTest@7a79be86]" name="beforeTest" is-config="true" duration-ms="39" started-at="2018-08-12T16:31:58Z" description="娴嬭瘯鍑嗗宸ヤ綔,鑾峰彇HttpClient瀵硅薄" finished-at="2018-08-12T16:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginSuccess()[pri:0, instance:com.planet.test.cases.LoginTest@7a79be86]" name="loginSuccess" duration-ms="944" started-at="2018-08-12T16:31:58Z" description="鐢ㄦ埛鎴愬姛鐧婚檰鎺ュ彛" finished-at="2018-08-12T16:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method status="PASS" signature="loginFail()[pri:0, instance:com.planet.test.cases.LoginTest@7a79be86]" name="loginFail" duration-ms="39" started-at="2018-08-12T16:31:59Z" description="鐢ㄦ埛鐧婚檰澶辫触鎺ュ彛" finished-at="2018-08-12T16:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+      </class> <!-- com.planet.test.cases.LoginTest -->
+      <class name="com.planet.test.cases.GetUserInfoListTest">
+        <test-method status="PASS" signature="getUserListInfo()[pri:0, instance:com.planet.test.cases.GetUserInfoListTest@34ce8af7]" name="getUserListInfo" duration-ms="2067" depends-on-groups="loginSuccess" started-at="2018-08-12T16:31:59Z" description="鑾峰彇鎬у埆涓虹敺鐨勭敤鎴蜂俊鎭�" finished-at="2018-08-12T16:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserListInfo -->
+      </class> <!-- com.planet.test.cases.GetUserInfoListTest -->
+    </test> <!-- 用户接口测试用例 -->
+  </suite> <!-- 用户接口测试套件 -->
+</testng-results>

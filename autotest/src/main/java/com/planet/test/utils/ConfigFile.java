@@ -1,6 +1,6 @@
-package com.tester.utils;
+package com.planet.test.utils;
 
-import com.tester.model.InterfaceName;
+import com.planet.test.bean.InterfaceName ;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -24,10 +24,6 @@ public class ConfigFile {
 
         if(name == InterfaceName.UPDATEUSERINFO){
             uri = bundle.getString("updateUserInfo.uri");
-        }
-
-        if(name == InterfaceName.GETUSERINFO){
-            uri = bundle.getString("getUserInfo.uri");
         }
 
         if(name == InterfaceName.ADDUSERINFO){

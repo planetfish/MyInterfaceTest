@@ -1,0 +1,4 @@
+com\planet\bean\User.class
+com\planet\controller\ServerMock.class
+com\planet\Application.class
+com\planet\config\SwaggerConfig.class

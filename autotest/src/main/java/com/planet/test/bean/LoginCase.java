@@ -1,4 +1,4 @@
-package com.tester.model;
+package com.planet.test.bean;
 
 import lombok.Data;
 
@@ -8,4 +8,5 @@ public class LoginCase {
         private String userName;
         private String password;
         private String expected;
+
 }

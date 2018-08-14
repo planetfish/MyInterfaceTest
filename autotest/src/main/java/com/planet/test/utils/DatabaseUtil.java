@@ -1,4 +1,4 @@
-package com.tester.utils;
+package com.planet.test.utils;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;

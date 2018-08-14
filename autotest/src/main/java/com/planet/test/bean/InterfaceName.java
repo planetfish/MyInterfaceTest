@@ -1,4 +1,4 @@
-package com.tester.model;
+package com.planet.test.bean;
 
 public enum InterfaceName {
     GETUSERLIST,LOGIN,UPDATEUSERINFO,GETUSERINFO,ADDUSERINFO
